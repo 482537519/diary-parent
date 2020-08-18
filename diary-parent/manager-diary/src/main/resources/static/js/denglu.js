@@ -13,7 +13,7 @@ $("#dljm_dl").on("click",function () {
           var admin_id = $("#dljm_lable").val();
           sessionStorage.setItem("id",JSON.stringify(admin_id));
           console.log(1)
-          window.location.href="pages/indexTwo.html"
+          window.location.href="pages/index.html"
         return
       }else{
           if(j==admin.length-1&&i==teacher.length-1){
